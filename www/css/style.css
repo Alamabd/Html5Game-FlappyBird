@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+canvas {
+    overflow: hidden;
+}
+
+@media (min-width: 487px) {
+    canvas {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left:  50%;
+        top: 50%;
+    }
+}

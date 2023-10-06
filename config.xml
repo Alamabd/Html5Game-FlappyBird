@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.flappybird.co.id" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Flappy Bird</name>
+    <description>game yang dibuat dengan kanvas html dan javascript murni</description>
+    <author email="alamabdillah0108@gmail.com">
+        alam abdillah
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="market:*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+
+    <icon density="mdpi" height="128" platform="android" src="www/img/yellowbird-upflap.png" width="128" />
+    <icon density="mdpi" height="256" platform="android" src="www/img/yellowbird-upflap.png" width="256" />
+
+    <plugin name="cordova-plugin-statusbar" />
+
+    <platform name="android" >
+        <preference name="loglevel" value="DEBUG" />
+        <preference name="DisallowOverscroll" value="true" />
+        <preference name="AllowInlineMediaPlayback" value="true" />
+        <preference name="AndroidBlacklistSecureSocketProtocols" value="SSLv3,TLSv1" />
+        <preference name="StatusBarStyle" value="default" />
+        
+        <preference name="fullscreen" value="true" />
+        <preference name="orientation" value="portrait" />
+        <preference name="android-minSdkVersion" value="22" />
+        <preference name="android-targetSdkVersion" value="33" />
+        <preference name="deployment-target" value="12.0" />
+
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="SplashScreenDelay" value="0" />
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/img/yellowbird-upflap.png" />
+        
+    </platform >
+
+</widget>
