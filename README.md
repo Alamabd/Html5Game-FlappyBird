@@ -13,6 +13,18 @@
 - Javascript
 - Framework cordova
 ## Instalation
+
+### Web Browser
+
+1. Clone repository
+   
+```git
+  git clone https://github.com/Alamabd/Html5Game-FlappyBird.git
+```
+2. Open index.html in folder www
+
+### Mobile Applications
+
 1. Install cordova framework
    <a href="https://cordova.apache.org/">https://cordova.apache.org/</a>
 2. Clone repository
