@@ -42,3 +42,6 @@
 ```
   cordova build <platform name>
 ```
+
+## Bugs and Issues
+Have a bug or problem? Open a [new issue here](https://github.com/Alamabd/Html5Game-FlappyBird/issues) on GitHub
