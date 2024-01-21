@@ -6,6 +6,10 @@
 </div>
 
 ## Preview 📷
+<a href="https://alamabd.github.io/Html5Game-FlappyBird/www">Open with Browser</a>
+
+<br />
+
 ![mobileandroid](https://github.com/Alamabd/Html5Game-FlappyBird/assets/115331322/aa39a4a0-c290-4195-a155-dbc4abf4d6a0)
 
 ## tech used 👨‍💻
